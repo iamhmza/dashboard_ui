@@ -25,7 +25,7 @@
       name="keywords"
       content="materialize, admin template, dashboard template, flat admin template, responsive admin template,"
     />
-    <title>Page Blank | Materialize - Material Design Admin Template</title>
+    <title>APP | Campaigns - create one</title>
 
     <!-- Favicons -->
     <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32" />
@@ -100,12 +100,15 @@
     <!-- START HEADER -->
     <header id="header" class="page-topbar">
       <!-- start header nav -->
-      <div class="navbar-fixed">
-        <nav class="navbar-color indigo">
-          <div class="nav-wrapper">
-            <div class="center">
+      <nav class="nav-wrapper indigo">
+        <div class="container">
+          <div class="row">
+            <div id="nav-menu" class="col s4">
+              <i class="mdi-image-dehaze"></i>
+            </div>
+            <div class="col s4">
               <h1 class="logo-wrapper">
-                <a href="index.html" class="brand-logo darken-1">
+                <a href="index.html" class="brand-logo darken-1 center">
                   <img
                     src="images/materialize-logo.png"
                     alt="materialize logo"
@@ -115,12 +118,24 @@
               </h1>
             </div>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
+
       <!-- end header nav -->
+      <div id="collapsed_menu" class="menu grey lighten-5">
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m4">
+              <h4>HEADING</h4>
+              <p><a href="campaigns.html">Create capmaign</a></p>
+              <p>item 1</p>
+              <p>item 1</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <!-- END HEADER -->
-
     <!--
       ////////////////////////////////////////////////////////////////////////////
     -->
@@ -129,168 +144,6 @@
     <div id="main">
       <!-- START WRAPPER -->
       <div class="wrapper">
-        <!-- START LEFT SIDEBAR NAV -->
-        <aside id="left-sidebar-nav">
-          <ul id="slide-out" class="side-nav fixed leftside-navigation">
-            <li class="user-details cyan darken-2">
-              <div class="row">
-                <div class="col col s4 m4 l4">
-                  <img
-                    src="images/avatar.jpg"
-                    alt=""
-                    class="circle responsive-img valign profile-image"
-                  />
-                </div>
-                <div class="col col s8 m8 l8">
-                  <ul id="profile-dropdown" class="dropdown-content">
-                    <li>
-                      <a href="#"
-                        ><i class="mdi-action-face-unlock"></i> Profile</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="mdi-action-settings"></i> Settings</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="mdi-communication-live-help"></i> Help</a
-                      >
-                    </li>
-                    <li class="divider"></li>
-                    <li>
-                      <a href="#"
-                        ><i class="mdi-action-lock-outline"></i> Lock</a
-                      >
-                    </li>
-                    <li>
-                      <a href="#"
-                        ><i class="mdi-hardware-keyboard-tab"></i> Logout</a
-                      >
-                    </li>
-                  </ul>
-                  <a
-                    class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn"
-                    href="#"
-                    data-activates="profile-dropdown"
-                    >John Doe<i class="mdi-navigation-arrow-drop-down right"></i
-                  ></a>
-                  <p class="user-roal">Administrator</p>
-                </div>
-              </div>
-            </li>
-            <li class="bold">
-              <a href="index.html" class="waves-effect waves-cyan"
-                ><i class="mdi-action-dashboard"></i> Dashboard</a
-              >
-            </li>
-            <li class="no-padding">
-              <ul class="collapsible collapsible-accordion">
-                <li class="bold">
-                  <a class="collapsible-header waves-effect waves-cyan"
-                    ><i class="mdi-action-view-carousel"></i>Campaigns</a
-                  >
-                  <div class="collapsible-body">
-                    <ul>
-                      <li><a href="compaigns.html">On going</a></li>
-                      <li><a href="page-404.html">Horizontal Menu</a></li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            </li>
-            <li class="bold">
-              <a href="app-email.html" class="waves-effect waves-cyan"
-                ><i class="mdi-communication-email"></i> Mailbox
-                <span class="new badge">4</span></a
-              >
-            </li>
-            <li class="bold">
-              <a href="app-calendar.html" class="waves-effect waves-cyan"
-                ><i class="mdi-editor-insert-invitation"></i> Calender</a
-              >
-            </li>
-            <li class="no-padding">
-              <ul class="collapsible collapsible-accordion">
-                <li class="bold">
-                  <a class="collapsible-header waves-effect waves-cyan"
-                    ><i class="mdi-action-invert-colors"></i> CSS</a
-                  >
-                  <div class="collapsible-body">
-                    <ul>
-                      <li><a href="css-typography.html">Typography</a></li>
-                      <li><a href="css-icons.html">Icons</a></li>
-                      <li><a href="css-animations.html">Animations</a></li>
-                      <li><a href="css-shadow.html">Shadow</a></li>
-                      <li><a href="css-media.html">Media</a></li>
-                      <li><a href="css-sass.html">Sass</a></li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="bold">
-                  <a class="collapsible-header  waves-effect waves-cyan"
-                    ><i class="mdi-image-image"></i> Medias</a
-                  >
-                  <div class="collapsible-body">
-                    <ul>
-                      <li>
-                        <a href="media-gallary-page.html">Gallery Page</a>
-                      </li>
-                      <li>
-                        <a href="media-hover-effects.html"
-                          >Image Hover Effects</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="bold">
-                  <a class="collapsible-header  waves-effect waves-cyan"
-                    ><i class="mdi-action-account-circle"></i> User</a
-                  >
-                  <div class="collapsible-body">
-                    <ul>
-                      <li><a href="user-profile-page.html">User Profile</a></li>
-                      <li><a href="user-login.html">Login</a></li>
-                      <li><a href="user-register.html">Register</a></li>
-                      <li>
-                        <a href="user-forgot-password.html">Forgot Password</a>
-                      </li>
-                      <li><a href="user-lock-screen.html">Lock Screen</a></li>
-                    </ul>
-                  </div>
-                </li>
-
-                <li class="bold">
-                  <a class="collapsible-header waves-effect waves-cyan"
-                    ><i class="mdi-editor-insert-chart"></i> Charts</a
-                  >
-                  <div class="collapsible-body">
-                    <ul>
-                      <li><a href="charts-chartjs.html">Chart JS</a></li>
-                      <li><a href="charts-chartist.html">Chartist</a></li>
-                      <li><a href="charts-morris.html">Morris Charts</a></li>
-                      <li><a href="charts-xcharts.html">xCharts</a></li>
-                      <li><a href="charts-flotcharts.html">Flot Charts</a></li>
-                      <li>
-                        <a href="charts-sparklines.html">Sparkline Charts</a>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <a
-            href="#"
-            data-activates="slide-out"
-            class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only cyan"
-            ><i class="mdi-navigation-menu"></i
-          ></a>
-        </aside>
-        <!-- END LEFT SIDEBAR NAV -->
-
         <!--
           ////////////////////////////////////////////////////////////////////////////
         -->
@@ -301,11 +154,11 @@
           <div class="container">
             <div class="section">
               <div class="row">
-                <div class="col s4 offset-s4">
-                  <div class="card-panel center indigo">
+                <div class="col s6 offset-s3 ">
+                  <div class="card-panel center indigo dashed">
                     <div class="">
-                      <a href="#" class="circle white-text">
-                        <i class="mdi-content-add-circle-outline large"></i
+                      <a href="#" class="circle white-text ">
+                        <i class="mdi-content-add-circle-outline large tada"></i
                         ><br />
                         Create new campaign
                       </a>
@@ -313,7 +166,7 @@
                   </div>
                 </div>
               </div>
-              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             </div>
             <!-- Floating Action Button -->
             <div class="fixed-action-btn" style="bottom: 50px; right: 19px;">
