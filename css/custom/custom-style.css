@@ -70,3 +70,38 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
     transform: scale3d(1, 1, 1);
   }
 }
+
+.gradient1 {
+  background-image: linear-gradient(
+    to bottom,
+    #3f51b5,
+    #1a75c8,
+    #2b94d0,
+    #5eb1d4,
+    #94cbd8,
+    #9fced4,
+    #aad0d1,
+    #b5d2d0,
+    #98bfbd,
+    #7aadaa,
+    #5b9a98,
+    #398886
+  );
+}
+#login {
+  background-image: linear-gradient(
+    to top,
+    #3f51b5,
+    #4e4db5,
+    #5b49b5,
+    #6843b4,
+    #753db2,
+    #8931a8,
+    #9b229d,
+    #a90790,
+    #ba0077,
+    #c3005d,
+    #c60043,
+    #c20029
+  );
+}
