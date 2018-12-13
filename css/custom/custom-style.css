@@ -73,19 +73,19 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
 
 .gradient1 {
   background-image: linear-gradient(
-    to bottom,
+    to top,
     #3f51b5,
-    #1a75c8,
-    #2b94d0,
-    #5eb1d4,
-    #94cbd8,
-    #9fced4,
-    #aad0d1,
-    #b5d2d0,
-    #98bfbd,
-    #7aadaa,
-    #5b9a98,
-    #398886
+    #4e4db5,
+    #5b49b5,
+    #6843b4,
+    #753db2,
+    #8931a8,
+    #9b229d,
+    #a90790,
+    #ba0077,
+    #c3005d,
+    #c60043,
+    #c20029
   );
 }
 #login {
@@ -104,4 +104,18 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
     #c60043,
     #c20029
   );
+}
+/****Margin *****/
+.mb10 {
+  margin-bottom: 10px !important;
+}
+.mb15 {
+  margin-bottom: 15px !important;
+}
+.mb20 {
+  margin-bottom: 20px !important;
+}
+/******login page********/
+#login-page {
+  width: 450px;
 }
